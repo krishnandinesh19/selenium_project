@@ -18,14 +18,12 @@ public class Fblogin {
 		//type the url application 
 		driver.get("https://www.facebook.com/login/");
 		
-		
-		
+	
 		//type invaild credential (username &password)
 		driver.findElement(By.id("email")).sendKeys("dinesh@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("qwerta");
 		
-		
-		
+	
 		//click on login button 
 		driver.findElement(By.name("login")).click();
 		
